@@ -9,8 +9,8 @@ class AdventurerCard:
         else:
             splitValue = data['value'].split(' ')
             self.value = {
-                'type': splitValue[0],
-                'amount': splitValue[1],
+                'type': splitValue[1],
+                'amount': splitValue[0],
             }
         
         self.description = data['description'] if data['description'] != 'null' else None
