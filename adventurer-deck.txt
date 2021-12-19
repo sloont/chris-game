@@ -1,0 +1,359 @@
+//looks like best this is dicts for each and have 4 data fields
+///
+////
+
+basic sword
+one-handed
+2 damage
+null
+
+basic sword
+one-handed
+2 damage
+null
+
+basic sword
+one-handed
+2 damage
+null
+
+basic sword
+one-handed
+2 damage
+null
+
+dagger
+one-handed
+1 damage
+attack twice
+
+dagger
+one-handed
+1 damage
+attack twice
+
+dagger
+one-handed
+1 damage
+attack twice
+
+dagger
+one-handed
+1 damage
+attack twice
+
+mace
+one-handed
+2 damage
+cleave 2
+
+mace
+one-handed
+2 damage
+cleave 2
+
+leeching mace
+one-handed
+3 damage
+heal 2 on kill
+
+wooden shield
+one-handed
+1 defense
+breakable 5
+
+wooden shield
+one-handed
+1 defense
+breakable 5
+
+wooden shield
+one-handed
+1 defense
+breakable 5
+
+wooden shield
+one-handed
+1 defense
+breakable 5
+
+tower shield
+one-handed
+2 defense
+blocks all attacks
+
+tower shield
+one-handed
+2 defense
+blocks all attacks
+
+battle axe
+two-handed
+3 damage
+cleave 2
+
+battle axe
+two-handed
+3 damage
+cleave 2
+
+glass greatsword
+two-handed
+4 damage
+cleave 3/breakable 4
+
+flaming halberd
+two-handed
+2 damage
+cleave 2/spell 2
+
+wizard staff
+two-handed
+2 damage
+resolve spells twice
+
+wizard staff
+two-handed
+2 damage
+resolve spells twice
+
+flimsy chainmail
+armor
+1 defense
+null
+
+flimsy chainmail
+armor
+1 defense
+null
+
+flimsy chainmail
+armor
+1 defense
+null
+
+flimsy chainmail
+armor
+1 defense
+null
+
+glass armor
+armor
+6 defense
+breakable 3
+
+plate armor
+armor
+2 defense
+null
+
+plate armor
+armor
+2 defense
+null
+
+rogue's wraps
+armor
+1 defense
+reroll skill check fail
+
+sorcerer robes
+armor
+1 defense
+all spells can be cast twice
+
+amulet of strength
+amulet
+null
+add 1 to all attacks
+
+amulet of strength
+amulet
+null
+add 1 to all attacks
+
+amulet of the priest
+amulet
+null
+add 1 to all healing
+
+amulet of the priest
+amulet
+null
+add 1 to all healing
+
+amulet of dexterity
+amulet
+null
+double the use of a one-handed weapon
+
+amulet of intellect
+amulet
+null
+double the effect of all spells
+
+blessed blade
+enchantment
+null
+heal for half of damage done
+
+blessed blade
+enchantment
+null
+heal for half of damage done
+
+fireball
+spell
+1 damage
+cycling
+
+fireball
+spell
+1 damage
+cycling
+
+fireball
+spell
+1 damage
+cycling
+
+fireball
+spell
+1 damage
+cycling
+
+fire wall
+spell
+2 damage
+cycling/damage is to all
+
+frost bolt
+spell 
+1 damage
+cycling/can't attack next turn
+
+frost bolt
+spell
+1 damage
+cycling/can't attack next turn
+
+magic shield
+spell/consumable
+null
+block one damage source
+
+magic shield
+spell/consumable
+null
+block one damage source
+
+magic shield
+spell/consumable
+null
+block one damage source
+
+magic shield
+spell/consumable
+null
+block one damage source
+
+holy light
+spell
+heal 2
+cycling
+
+holy light
+spell
+heal 2
+cycling
+
+small healing potion
+consumable
+heal 2
+null
+
+small healing potion
+consumable
+heal 2
+null
+
+small healing potion
+consumable
+heal 2
+null
+
+small healing potion
+consumable
+heal 2
+null
+
+medium healing potion
+consumable
+heal 5
+null
+
+medium healing potion
+consumable
+heal 5
+null
+
+medium healing potion
+consumable
+heal 5
+null
+
+medium healing potion
+consumable
+heal 5
+null
+
+large healing potion
+consumable
+heal 12
+null
+
+large healing potion
+consumable
+heal 12
+null
+
+potion of weightlifting
+consumable
+null
+double next attack damage
+
+potion of weightlifting
+consumable
+null
+double next attack damage
+
+mana potion
+consumable
+null
+resolve next spell twice
+
+mana potion
+consumable
+null
+resolve next spell twice
+
+mana potion
+consumable
+null
+resolve next spell twice
+
+ironhide potion
+consumable
+null
+double defense this encounter
+
+ironhide potion
+consumable
+null
+double defense this encounter
+
+ironhide potion
+consumable
+null
+double defense this encounter
+

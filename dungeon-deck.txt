@@ -1,0 +1,394 @@
+//here we'll do dicts for each card with 5 data fields
+///
+////
+
+lichspawn
+monster
+4 damage
+4 health
+power level 5
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+spike pit
+trap
+2 damage
+skill check 4
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+falling rocks
+trap
+4 damage
+skill check 2
+power level 2
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+kobold
+monster
+1 damage
+2 health
+power level 1
+
+big snake
+monster
+2 damage
+1 health
+power level 2
+
+big snake
+monster
+2 damage
+1 health
+power level 2
+
+big snake
+monster
+2 damage
+1 health
+power level 2
+
+big snake
+monster
+2 damage
+1 health
+power level 2
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+giant spider
+monster
+2 damage
+3 health
+power level 3
+
+bandit
+monster
+3 damage
+2 health
+power level 3
+
+bandit
+monster
+3 damage
+2 health
+power level 3
+
+bandit
+monster
+3 damage
+2 health
+power level 3
+
+bandit
+monster
+3 damage
+2 health
+power level 3
+
+bruiser
+monster
+4 damage
+2 health
+power level 4
+
+bruiser
+monster
+4 damage
+2 health
+power level 4
+
+bruiser
+monster
+4 damage
+2 health
+power level 4
+
+bruiser
+monster
+4 damage
+2 health
+power level 4
+
+lesser demon
+monster
+3 damage
+3 health
+power level 4
+
+lesser demon
+monster
+3 damage
+3 health
+power level 4
+
+lesser demon
+monster
+3 damage
+3 health
+power level 4
+
+lesser demon
+monster
+3 damage
+3 health
+power level 4
+
+rock monster
+monster
+1 damage
+5 health
+power level 4
+
+rock monster
+monster
+1 damage
+5 health
+power level 4
+
+rock monster
+monster
+1 damage
+5 health
+power level 4
+
+rock monster
+monster
+1 damage
+5 health
+power level 4
+
+lichspawn
+monster
+4 damage
+4 health
+power level 5
+
+lichspawn
+monster
+4 damage
+4 health
+power level 5
+
+lichspawn
+monster
+4 damage
+4 health
+power level 5
+
+lichspawn
+monster
+4 damage
+4 health
+power level 5
+
+lichspawn
+monster
+4 damage
+4 health
+power level 5
+
+giant slime
+monster
+2 damage
+10 health
+power level 6
+
+giant slime
+monster
+2 damage
+10 health
+power level 6
+
+bone ogre
+monster
+6 damage
+6 health
+power level 6
+
+bone ogre
+monster
+6 damage
+6 health
+power level 6
+
+necromancer
+monster
+6 damage
+8 health
+power level 8
+
