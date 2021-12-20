@@ -7,11 +7,19 @@ class AdventurerCard:
         if data['value'] == 'null':
             self.value = None
         else:
-            splitValue = data['value'].split(' ')
+            split = data['value'].split(' ')
             self.value = {
-                'type': splitValue[1],
-                'amount': splitValue[0],
+                'type': split[1],
+                'amount': split[0],
             }
         
         self.description = data['description'] if data['description'] != 'null' else None
         
+class DungeonCard:
+    def __init__(self, data):
+        self.name = data['name']
+        #self.id = data['id']
+        self.type = data['type'].split('/')
+        self.damage = data['damage']
+        self.health = data['health']
+        self.power = data['power']

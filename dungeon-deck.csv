@@ -1,0 +1,65 @@
+name,type,damage,health,power
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+spike pit,trap,2 damage,4 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+falling rocks,trap,4 damage,2 skillcheck,pl2
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+kobold,monster,1 damage,2 health,pl1
+big snake,monster,2 damage,1 health,pl2
+big snake,monster,2 damage,1 health,pl2
+big snake,monster,2 damage,1 health,pl2
+big snake,monster,2 damage,1 health,pl2
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+giant spider,monster,2 damage,3 health,pl3
+bandit,monster,3 damage,2 health,pl3
+bandit,monster,3 damage,2 health,pl3
+bandit,monster,3 damage,2 health,pl3
+bandit,monster,3 damage,2 health,pl3
+bruiser,monster,4 damage,2 health,pl4
+bruiser,monster,4 damage,2 health,pl4
+bruiser,monster,4 damage,2 health,pl4
+bruiser,monster,4 damage,2 health,pl4
+lesser demon,monster,3 damage,3 health,pl4
+lesser demon,monster,3 damage,3 health,pl4
+lesser demon,monster,3 damage,3 health,pl4
+lesser demon,monster,3 damage,3 health,pl4
+rock monster,monster,1 damage,5 health,pl4
+rock monster,monster,1 damage,5 health,pl4
+rock monster,monster,1 damage,5 health,pl4
+rock monster,monster,1 damage,5 health,pl4
+lichspawn,monster,4 damage,4 health,pl5
+lichspawn,monster,4 damage,4 health,pl5
+lichspawn,monster,4 damage,4 health,pl5
+lichspawn,monster,4 damage,4 health,pl5
+lichspawn,monster,4 damage,4 health,pl5
+giant slime,monster,2 damage,10 health,pl6
+giant slime,monster,2 damage,10 health,pl6
+bone ogre,monster,6 damage,6 health,pl6
+bone ogre,monster,6 damage,6 health,pl6
+necromancer,monster,6 damage,8 health,pl8
