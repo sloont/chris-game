@@ -50,18 +50,18 @@ magic shield,A024,spell/consumable,null,block one damage source
 magic shield,A024,spell/consumable,null,block one damage source
 magic shield,A024,spell/consumable,null,block one damage source
 magic shield,A024,spell/consumable,null,block one damage source
-holy light,A025,spell,heal 2,cycling
-holy light,A025,spell,heal 2,cycling
-small healing potion,A026,consumable,heal 2,null
-small healing potion,A026,consumable,heal 2,null
-small healing potion,A026,consumable,heal 2,null
-small healing potion,A026,consumable,heal 2,null
-medium healing potion,A027,consumable,heal 5,null
-medium healing potion,A027,consumable,heal 5,null
-medium healing potion,A027,consumable,heal 5,null
-medium healing potion,A027,consumable,heal 5,null
-large healing potion,A028,consumable,heal 12,null
-large healing potion,A028,consumable,heal 12,null
+holy light,A025,spell,2 heal,cycling
+holy light,A025,spell,2 heal,cycling
+small healing potion,A026,consumable,2 heal,null
+small healing potion,A026,consumable,2 heal,null
+small healing potion,A026,consumable,2 heal,null
+small healing potion,A026,consumable,2 heal,null
+medium healing potion,A027,consumable,5 heal,null
+medium healing potion,A027,consumable,5 heal,null
+medium healing potion,A027,consumable,5 heal,null
+medium healing potion,A027,consumable,5 heal,null
+large healing potion,A028,consumable,12 heal,null
+large healing potion,A028,consumable,12 heal,null
 potion of weightlifting,A029,consumable,null,double next attack damage
 potion of weightlifting,A029,consumable,null,double next attack damage
 mana potion,A030,consumable,null,resolve next spell twice

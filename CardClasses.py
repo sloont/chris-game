@@ -18,7 +18,7 @@ class AdventurerCard:
 class DungeonCard:
     def __init__(self, data):
         self.name = data['name']
-        #self.id = data['id']
+        self.id = data['id']
         self.type = data['type'].split('/')
         self.damage = data['damage']
         self.health = data['health']
