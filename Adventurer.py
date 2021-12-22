@@ -7,6 +7,23 @@ class Pawn:
         self.damage = stats['damage']
         self.defense = 0
         self.can_attack = True
+        self.is_dead = False
+
+    def modify_health(self, amount):
+        self.health += amount
+    
+    def attack(self, target):
+
+        pass
+
+    def defend(self, target):
+
+        pass
+
+    def death_check(self):
+        if self.health < 1:
+            self.is_dead = True
+
 
 class Adventurer(Pawn):
 
@@ -36,9 +53,7 @@ class Adventurer(Pawn):
     def modify_damage(self, amount):
         self.damage += amount
 
-    def modify_health(self, amount):
-        self.health += amount
-    
+
     def modify_defense(self, amount):
         self.defense += amount
 
@@ -56,12 +71,6 @@ class Adventurer(Pawn):
     #probably because we would have to change the hand (self.cards) property in tandem
     def discard(self, card):
         #i think we have this method call card.discard() as well.
-        pass
-
-    def attack(self, target):
-        pass
-
-    def defend(self, target):
         pass
 
     #instead of setting a default number of attacks, i think we just have basic attack as a bool
