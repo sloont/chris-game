@@ -1,3 +1,9 @@
+class Pawn:
+    def __init__(self, stats):
+        self.health = stats['health']
+        self.damage = stats['damage']
+
+
 class Adventurer:
     def __init__(self):
         self.health = 20
