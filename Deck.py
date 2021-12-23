@@ -9,6 +9,8 @@ class Deck:
 
         
 
+#i think we can further consolidate these child classes when there is a more clear cut print structure.
+
 class AdventurerDeck(Deck):
     def __init__(self,file):
 
