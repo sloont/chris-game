@@ -14,7 +14,9 @@ class AdventurerCard:
             }
         
         self.description = data['description'] if data['description'] != 'null' else None
-        
+
+#DungeonCard is unfinished. The following is a placeholder 
+
 class DungeonCard:
     def __init__(self, data):
         self.name = data['name']

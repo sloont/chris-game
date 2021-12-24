@@ -80,12 +80,34 @@ class Dungeon:
     def __init__(self):
         self.monsters = []
         self.traps = []
-        self.hand = []
+        self.cards = []
+
+    def draw(self, deck):
+        
+        while len(self.cards) < 7:
+            self.cards.append(deck.draw())
+
+    def summon(self, card, encounter):
+        encounter.dungeon_summon(card)
+        self.cards.remove(card)
 
 
 class Encounter:
-    def __init__(self):
+    def __init__(self, adventurer, dungeon):
         self.power_level = 0
 
-        self.adventurer_board = None
+        self.adventurer = adventurer
+        self.dungeon = dungeon
         self.dungeon_board = []
+        self.adventurer_board = []
+
+
+    def dungeon_summon(self, card):
+        self.dungeon_board.append(card)
+
+    def update_adventurer(self, adventurer):
+        self.adventurer_board.append({
+            'health': adventurer.health,
+            'damage': adventurer.damage,
+            'defense': adventurer.defense,
+        })
