@@ -39,34 +39,37 @@ amulet of dexterity,A018,amulet,null,double the use of a one-handed weapon
 amulet of intellect,A019,amulet,null,double the effect of all spells
 blessed blade,A020,enchantment,null,heal for half of damage done
 blessed blade,A020,enchantment,null,heal for half of damage done
-fireball,A021,spell,1 damage,cycling
-fireball,A021,spell,1 damage,cycling
-fireball,A021,spell,1 damage,cycling
-fireball,A021,spell,1 damage,cycling
-fire wall,A022,spell,2 damage,cycling/damage is to all
-frost bolt,A023,spell,1 damage,cycling/can't attack next turn
-frost bolt,A023,spell,1 damage,cycling/can't attack next turn
-magic shield,A024,spell/consumable,null,block one damage source
-magic shield,A024,spell/consumable,null,block one damage source
-magic shield,A024,spell/consumable,null,block one damage source
-magic shield,A024,spell/consumable,null,block one damage source
-holy light,A025,spell,2 heal,cycling
-holy light,A025,spell,2 heal,cycling
-small healing potion,A026,consumable,2 heal,null
-small healing potion,A026,consumable,2 heal,null
-small healing potion,A026,consumable,2 heal,null
-small healing potion,A026,consumable,2 heal,null
-medium healing potion,A027,consumable,5 heal,null
-medium healing potion,A027,consumable,5 heal,null
-medium healing potion,A027,consumable,5 heal,null
-medium healing potion,A027,consumable,5 heal,null
-large healing potion,A028,consumable,12 heal,null
-large healing potion,A028,consumable,12 heal,null
-potion of weightlifting,A029,consumable,null,double next attack damage
-potion of weightlifting,A029,consumable,null,double next attack damage
-mana potion,A030,consumable,null,resolve next spell twice
-mana potion,A030,consumable,null,resolve next spell twice
-mana potion,A030,consumable,null,resolve next spell twice
-ironhide potion,A031,consumable,null,double defense this encounter
-ironhide potion,A031,consumable,null,double defense this encounter
-ironhide potion,A031,consumable,null,double defense this encounter
+iron skin,A021,enchantment,null,double defense of this equipment
+iron skin,A021,enchantment,null,double defense of this equipment
+blinding light,A022,enchantment,null,ignore damage from one attack
+fireball,A023,spell,1 damage,cycling
+fireball,A023,spell,1 damage,cycling
+fireball,A023,spell,1 damage,cycling
+fireball,A023,spell,1 damage,cycling
+fire wall,A024,spell,2 damage,cycling/damage is to all
+frost bolt,A025,spell,1 damage,cycling/can't attack next turn
+frost bolt,A025,spell,1 damage,cycling/can't attack next turn
+magic shield,A026,spell/consumable,null,block one damage source
+magic shield,A026,spell/consumable,null,block one damage source
+magic shield,A026,spell/consumable,null,block one damage source
+magic shield,A026,spell/consumable,null,block one damage source
+holy light,A027,spell,2 heal,cycling
+holy light,A027,spell,2 heal,cycling
+small healing potion,A028,consumable,2 heal,null
+small healing potion,A028,consumable,2 heal,null
+small healing potion,A028,consumable,2 heal,null
+small healing potion,A028,consumable,2 heal,null
+medium healing potion,A029,consumable,5 heal,null
+medium healing potion,A029,consumable,5 heal,null
+medium healing potion,A029,consumable,5 heal,null
+medium healing potion,A029,consumable,5 heal,null
+large healing potion,A030,consumable,12 heal,null
+large healing potion,A030,consumable,12 heal,null
+potion of weightlifting,A031,consumable,null,double next attack damage
+potion of weightlifting,A031,consumable,null,double next attack damage
+mana potion,A032,consumable,null,resolve next spell twice
+mana potion,A032,consumable,null,resolve next spell twice
+mana potion,A032,consumable,null,resolve next spell twice
+ironhide potion,A033,consumable,null,double defense this encounter
+ironhide potion,A033,consumable,null,double defense this encounter
+ironhide potion,A033,consumable,null,double defense this encounter

@@ -1,4 +1,5 @@
 import random, csv
+from Functions import delay_print
 
 from CardClasses import AdventurerCard, DungeonCard
 
@@ -7,7 +8,15 @@ class Deck:
         self.cards = []
         self.file = file
 
-        
+    def abbv_deck_list(self):
+        for card in self.cards:
+            print(f'{card.name}')
+
+    def shuffle(self):
+        random.shuffle(self.cards)    
+
+    def draw(self):
+        return self.cards.pop()
 
 #i think we can further consolidate these child classes when there is a more clear cut print structure.
 
@@ -24,6 +33,7 @@ class AdventurerDeck(Deck):
     def deck_list(self):
         for card in self.cards:
             print(f'{card.name}\n{card.id}\n{card.type}\n{card.value}\n{card.description}\n\n')
+
 
 class DungeonDeck(Deck):
     def __init__(self,file):

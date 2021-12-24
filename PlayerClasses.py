@@ -3,6 +3,7 @@ import random
 class Pawn:
     #we could honestly just use this parent as the class for monsters
     def __init__(self,stats):
+        self.name = stats['name']
         self.health = stats['health']
         self.damage = stats['damage']
         self.defense = 0
@@ -24,6 +25,9 @@ class Pawn:
         if self.health < 1:
             self.is_dead = True
 
+    def who_am_i(self):
+        print(f'Name: {self.name}\nHealth: {self.health}\nDamage: {self.damage}\n')
+
 
 class Adventurer(Pawn):
 
@@ -37,18 +41,12 @@ class Adventurer(Pawn):
 
         self.cards = []
 
-        self.damage = 1
-
-
         super().__init__(stats)
 
     def draw(self, deck):
 
-        #while cards < 5... draw card
-        #interact with the deck object. need to remove the card and store here in hand
-        #make a class similar to deck that is a graveyard/discard
-        #card objects will need a bool for discarded
-        pass
+        while len(self.cards) < 5:
+            self.cards.append(deck.draw())
 
     def modify_damage(self, amount):
         self.damage += amount
