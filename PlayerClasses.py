@@ -1,24 +1,35 @@
 import random
+from Attack import Attack
 
 class Pawn:
     #we could honestly just use this parent as the class for monsters
     def __init__(self,stats):
         self.name = stats['name']
-        self.health = stats['health']
-        self.damage = stats['damage']
+        self.health = int(stats['health'])
+        self.damage = int(stats['damage'])
         self.defense = 0
         self.can_attack = True
         self.is_dead = False
+
+    def get_name(self):
+        return self.name
+    def get_health(self):
+        return self.health
+    def get_damage(self):
+        return self.damage
+    def get_defense(self):
+        return self.defense
 
     def modify_health(self, amount):
         self.health += amount
     
     def attack(self, target):
-
-        pass
+        attack = Attack(self, target)
+        attack.attack(target)
+        return attack.log_combat()
 
     def defend(self, target):
-
+#
         pass
 
     def death_check(self):
@@ -103,11 +114,11 @@ class Encounter:
 
 
     def dungeon_summon(self, card):
-        self.dungeon_board.append(card)
+        self.dungeon_board.append(Pawn({
+            'name': card.get_name(),
+            'health': card.get_health(),
+            'damage': card.get_damage(),
+        }))
 
     def update_adventurer(self, adventurer):
-        self.adventurer_board.append({
-            'health': adventurer.health,
-            'damage': adventurer.damage,
-            'defense': adventurer.defense,
-        })
+        self.adventurer_board = [adventurer]

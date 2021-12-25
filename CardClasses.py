@@ -22,6 +22,24 @@ class DungeonCard:
         self.name = data['name']
         self.id = data['id']
         self.type = data['type'].split('/')
-        self.damage = data['damage']
-        self.health = data['health']
+        self.damage = data['damage'].split(' ')[0]
+        self.health = data['health'].split(' ')[0]
         self.power = data['power']
+
+    def get_name(self):
+        return self.name
+    def get_id(self):
+        return self.id
+    def get_type(self):
+        return self.type
+    def get_damage(self):
+        return self.damage
+    def get_health(self):
+        return self.health
+    def get_power(self):
+        return self.power
+
+    #maybe this will need a defense getter
+
+    #def get_defense(self):
+    #   return self.defense
