@@ -25,7 +25,8 @@ class Pawn:
     
     def attack(self, target):
         attack = Attack(self, target)
-        attack.attack(target)
+        #We removed the call to Attack.attack() here because it all
+        #happens within Attack.__init__() now
         return attack.log_combat
 
     def defend(self, target):
