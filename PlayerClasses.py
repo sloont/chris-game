@@ -10,6 +10,7 @@ class Pawn:
         self.defense = 0
         self.can_attack = True
         self.is_dead = False
+        self.power = stats['power']
 
     def get_name(self):
         return self.name
@@ -23,12 +24,17 @@ class Pawn:
     def modify_health(self, amount):
         self.health += amount
     
+    #for now this method is working properly. it is called from the encounter (should it be?)
+    #the attack data (log) is now a property (dict) of Attack, Attack.log_combat
     def attack(self, target):
         attack = Attack(self, target)
         #We removed the call to Attack.attack() here because it all
         #happens within Attack.__init__() now
         return attack.log_combat
 
+
+#consider whether we even need a method for defense. 
+#don't think the Pawn instances need to log data, just Attack/encounter
     def defend(self, target):
 #
         pass
@@ -101,6 +107,8 @@ class Dungeon:
 
     def summon(self, card, encounter):
         encounter.dungeon_summon(card)
+        #we should probably have a dungeon board here to store the card object because
+        #the line below essentially deletes the card
         self.cards.remove(card)
 
 
@@ -112,6 +120,7 @@ class Encounter:
         self.dungeon = dungeon
         self.dungeon_board = []
         self.adventurer_board = []
+        self.log = []
 
 
     def dungeon_summon(self, card):
@@ -119,7 +128,18 @@ class Encounter:
             'name': card.get_name(),
             'health': card.get_health(),
             'damage': card.get_damage(),
+            'power':card.get_power(),
+
         }))
 
     def update_adventurer(self, adventurer):
         self.adventurer_board = [adventurer]
+
+    def turn(self):
+        
+        #
+        pass
+
+    def archive(self, action_log):
+        self.log.append(action_log)
+

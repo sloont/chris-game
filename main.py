@@ -14,6 +14,7 @@ adventurer = Adventurer({
     'name': 'Topher',
     'health': 20,
     'damage': 1,
+    'power': 9001,
 })
 
 dungeon = Dungeon()
@@ -29,5 +30,10 @@ for card in adventurer.cards:
 print('\n\n')
 
 for card in dungeon.cards:
-    print(f'{card.name}')
+    print(f'{card.name, card.type}')
+
+dungeon_deck.deck_list()
+
+
+
 

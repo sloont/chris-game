@@ -21,10 +21,10 @@ class DungeonCard:
     def __init__(self, data):
         self.name = data['name']
         self.id = data['id']
-        self.type = data['type'].split('/')
+        self.type = data['type'].split('/')[0] #this is a single entry list in every case currently DO NOT LEAVE
         self.damage = data['damage'].split(' ')[0]
         self.health = data['health'].split(' ')[0]
-        self.power = data['power']
+        self.power = int(data['power'].split('pl')[1])
 
     def get_name(self):
         return self.name

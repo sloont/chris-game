@@ -20,6 +20,9 @@ class Attack:
     def attack(self, defender):
         self.defender_health_post = self.defender_health_pre - self.payload
         defender.modify_health(-self.payload)
+        #is this where death check should go?
+        
+        defender.death_check()
 
 
             
